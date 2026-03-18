@@ -3,43 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tovuti Yangu Safi</title>
+    <title>Loners Digital</title>
     <style>
-        body {
-            background-color: #f0f2f5;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .kadi {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 { color: #1877f2; }
-        p { color: #555; }
-        .button {
-            background-color: #1877f2;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
-        }
+        body { background-color: #121212; color: white; font-family: Arial, sans-serif; margin: 0; padding: 15px; text-align: center; }
+        .header { margin-bottom: 20px; }
+        .banner { width: 100%; border-radius: 15px; margin-bottom: 10px; }
+        .price-tag { background: linear-gradient(to right, #ff0055, #ff5500); padding: 10px; border-radius: 20px; font-weight: bold; margin-bottom: 20px; display: inline-block; width: 90%; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
+        .card { background: #1e1e1e; border-radius: 15px; padding: 10px; border: 1px solid #333; position: relative; }
+        .card img { width: 100%; border-radius: 10px; }
+        .badge { position: absolute; top: 15px; right: 15px; background: #00cc66; font-size: 10px; padding: 3px 8px; border-radius: 5px; }
+        .wa-btn { background-color: #25D366; color: white; padding: 12px; border-radius: 50px; text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 30px; font-weight: bold; }
+        .footer-info { background: #1e1e1e; border-radius: 10px; padding: 15px; margin-top: 20px; display: flex; justify-content: space-between; font-size: 12px; }
     </style>
 </head>
 <body>
-    <div class="kadi">
-        <h1>Hongera Sana! 🎉</h1>
-        <p>Tovuti yangu sasa ina muonekano mpya na wa kisasa.</p>
-        <a href="#" class="button">Bonyeza Hapa</a>
+
+    <div class="header">
+        <h1>Loners Digital</h1>
+        <p>Usihangaike tena tuko hapa kukuhudumia. WELCOME FOR BETTER SERVICES!</p>
     </div>
+
+    <div class="price-tag">
+        POSTER DESIGNS PACKAGE • Mwezi: TZS 100,000 • Mwaka: TZS 500,000
+    </div
+
+    <div class="grid">
+        <div class="card">
+            <span class="badge">MOBILE</span>
+            <img src="https://via.placeholder.com/150x200/000?text=BLUR" alt="Blur">
+            <p>Blur Racing</p>
+        </div>
+        <div class="card">
+            <span class="badge">PC</span>
+            <img src="https://via.placeholder.com/150x200/000?text=UNCHARTED" alt="Uncharted">
+            <p>Uncharted 4</p>
+        </div>
+    </div>
+
+    <div class="footer-info">
+        <div>🔒 MALIPO SALAMA<br>M-PESA | AIRTEL</div>
+        <div>⚡ DELIVERY HARAKA<br>BAADA YA MALIPO</div>
+    </div>
+
+    <a href="https://wa.me/966598513987" class="wa-btn">
+        CHAT NA SISI WHATSAPP
+    </a>
+
 </body>
 </html>
-
